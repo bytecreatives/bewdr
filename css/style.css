@@ -69,7 +69,7 @@ h6 {
 
 h1 {
   color: #212121;
-  font-size: 2.8em;
+  font-size: 2.55em;
   margin: 24px 0;
 }
 
@@ -133,42 +133,6 @@ strong {
   color: #ffffff !important;
 }
 
-.animated {
-  position: relative;
-}
-
-.animated-info {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 5px;
-  min-width: 260px;
-  position: relative;
-}
-
-.animated-item {
-  color: #204ecf;
-}
-
-.animated-item {
-  font-size: 38px;
-  line-height: inherit;
-  display: block;
-  opacity: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  animation: BottomTotop 6s linear infinite 0s;
-}
-
-.animated-item:nth-child(2n+2) {
-  animation-delay: 2s;
-}
-
-.animated-item:nth-child(3n+3) {
-  animation-delay: 4s;
-}
 
 @keyframes BottomTotop {
   0% {
@@ -588,10 +552,6 @@ strong {
     font-size: 2em;
   }
 
-  .animated-item {
-    font-size: 28px;
-  }
-
   .navbar-collapse {
     background: #ffffff;
     text-align: center;
@@ -604,14 +564,6 @@ strong {
 }
 
 @media (max-width: 580px) {
-  .animated-info {
-    min-width: 200px;
-  }
-
-  .animated-item {
-    font-size: 30px;
-  }
-
   .custom-btn-group {
     text-align: center;
   }
@@ -632,10 +584,6 @@ strong {
 }
 
 @media (max-width: 320px) {
-  .animated-text {
-    margin-top: 0;
-  }
-
   .about-text {
     text-align: center;
   }
