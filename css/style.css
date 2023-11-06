@@ -233,7 +233,7 @@ strong {
   font-weight: bold;
 }
 
-.navbar-expand-sm .navbar-nav .nav-link {
+.navbar-expand-md .navbar-nav .nav-link {
   padding: 0 20px;
 }
 
@@ -598,7 +598,7 @@ strong {
     padding-bottom: 20px;
   }
 
-  .navbar-expand-sm .navbar-nav .nav-link {
+  .navbar-expand-md .navbar-nav .nav-link {
     padding: 3px 20px;
   }
 }
